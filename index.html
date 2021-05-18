@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="./Assets/Logo-3.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="nav" style="padding: 8px">
+      <img src="Assets/Logo-3.png" />
+      <h3 class="title" style="padding-top: 4px">Priority List</h3>
+      <h6 class="sub-title">Your Priority List App</h6>
+    </div>
+
+    <!-- <form id="searchbox" method="get" action="/search" autocomplete="off">
+    <input onchange="searchTodos()" id="searchTodos" name="q" type="text" size="15" placeholder="Enter keywords here..." />
+    <span onclick="searchTodos()" class="addBtn" id="button-submit" ></span>
+    </form> -->
+
+    <div id="myDIV" class="header">
+      <input type="text" id="searchTodos" placeholder="Search priorities..." />
+      <span onclick="searchTodos()" class="addBtn">Search</span>
+    </div>
+    <!-- <ul id="mySearch">
+
+  </ul> -->
+    <div id="myDIV" class="header">
+      <input type="text" id="myInput" placeholder="Add priorities..." />
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <ol id="myUL">
+      <li>HIT THE GYM</li>
+      <li class="checked">PAY BILLS</li>
+      <li>MEET GEORGE</li>
+      <li>READ A BOOK</li>
+    </ol>
+    <footer class="footer">Created by Divit Agrawal</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
